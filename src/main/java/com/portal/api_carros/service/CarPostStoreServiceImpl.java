@@ -1,7 +1,7 @@
 package com.portal.api_carros.service;
 
 import com.portal.api_carros.dto.CarPostDTO;
-import com.portal.api.client.CarPostStoreClient;
+import com.portal.api_carros.client.CarPostStoreClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

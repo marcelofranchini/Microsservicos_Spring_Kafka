@@ -38,6 +38,12 @@ public class CarPostController {
         return ResponseEntity.status(HttpStatus.FOUND).body(carPostStoreService.getCarForSales());
     }
 
+
+    @GetMapping("/")
+    public @ResponseBody String greeting() {
+        return "Hello, World";
+    }
+
     @PutMapping("/{id}")
     public ResponseEntity changeCarSale(@RequestBody CarPostDTO carPostDTO, @PathVariable("id") String id){
         carPostStoreService.changeCarForSale(carPostDTO,id);

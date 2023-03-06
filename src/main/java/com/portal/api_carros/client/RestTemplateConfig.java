@@ -1,4 +1,4 @@
-package com.portal.api.client;
+package com.portal.api_carros.client;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;

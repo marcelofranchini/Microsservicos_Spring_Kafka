@@ -1,4 +1,4 @@
-package com.portal.api.client;
+package com.portal.api_carros.client;
 
 import com.portal.api_carros.dto.CarPostDTO;
 import com.portal.api_carros.dto.OwnerPostDTO;
